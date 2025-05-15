@@ -11,4 +11,4 @@ st.selectbox("From where did you get to know about us?",['Social Media','Current
 st.selectbox("You are applying for:",['Internship','Contract-based Work','Permanent Job'])
 idd = random.randrange(1000000,2000000)
 if st.button("Submit"):
-    st.write("Hello,{name}! Thanks for applying. Welcome to NKSTUDIOS. Your ID is: ",idd)
+    st.write("Hello,", name, "Thanks for applying. Welcome to NKSTUDIOS. Your ID is: ",idd)
